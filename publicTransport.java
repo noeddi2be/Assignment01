@@ -15,7 +15,7 @@ public class publicTransport {
 	System.out.println("Option 1: one way tickets regular price");
 	System.out.println("Option 2: one way ticket in combination with half fare abo");
 	System.out.println("Option 3: multi trip ticket in combinaton with half fare abo");
-	System.out.println("Option 4: general abo yearly payment\n");
+	System.out.println("Option 4: general abo yearly payment \n");
 	
 	System.out.print("Enter the price for a one-way ticket from your city to the uni: ");
 	float singleTicket = scan.nextFloat();
@@ -43,9 +43,9 @@ public class publicTransport {
 	boolean cheapestOption4 = option4 < option1 & option4 < option2 & option4 < option3;
 
 	System.out.println("Option 1: " + option1 + " CHF" + "\nOption 2: " + option2 + " CHF");
-	System.out.println("Option 3: " + option3 + " CHF" + "\nOption 4: " + option4 + " CHF\n");
+	System.out.println("Option 3: " + option3 + " CHF" + "\nOption 4: " + option4 + " CHF \n");
 
-	System.out.println("The cheapest option is:\n");
+	System.out.println("The cheapest option is: \n");
 
 	System.out.println("Option 1: " + cheapestOption1);
 	System.out.println("Option 2: " + cheapestOption2);
