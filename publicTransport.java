@@ -44,7 +44,9 @@ public class publicTransport {
 
 	System.out.println("Option 1: " + option1 + " CHF" + "\nOption 2: " + option2 + " CHF");
 	System.out.println("Option 3: " + option3 + " CHF" + "\nOption 4: " + option4 + " CHF\n");
+
 	System.out.println("The cheapest option is:\n");
+
 	System.out.println("Option 1: " + cheapestOption1);
 	System.out.println("Option 2: " + cheapestOption2);
 	System.out.println("Option 3: " + cheapestOption3);
